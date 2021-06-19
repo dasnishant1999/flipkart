@@ -1,9 +1,15 @@
-import './App.css';
+import "./App.css";
+import ProductsPage from "./components/ProductsPage";
+import ProductsDataLayer from "./context/ProductsDataLayer";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="app">
-     hello
+      <Header />
+      <ProductsDataLayer>
+        <ProductsPage />
+      </ProductsDataLayer>
     </div>
   );
 }

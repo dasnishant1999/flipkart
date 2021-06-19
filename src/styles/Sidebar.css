@@ -1,0 +1,19 @@
+.sidebar {
+  width: 20%;
+}
+
+h3 {
+  margin: 10px 20px;
+}
+
+.price {
+  margin: 10px 20px;
+}
+
+.size {
+  margin: 10px 20px;
+}
+
+.price-radio{
+  display: block;
+}

@@ -1,0 +1,16 @@
+.product {
+    height: 430px;
+    width: 250px;
+    margin: 1rem;
+    background-color: aliceblue;
+}
+
+img {
+  object-fit: cover;
+  width: 250px;
+  height: 300px;
+}
+
+p{
+    margin: 0;
+}
